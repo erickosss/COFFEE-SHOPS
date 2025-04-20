@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+}
+
+.header {
+  background-color: #6b4f4f;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.header nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.section {
+  padding: 40px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #6b4f4f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  padding: 10px;
+}
+
+.menu-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.menu-card {
+  background-color: #fffaf4;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+}
+
+.menu-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.menu-card h3 {
+  margin: 10px 0 5px;
+  font-size: 1.2rem;
+  color: #6b4f4f;
+}
+
+.menu-card p {
+  font-size: 1rem;
+  color: #333;
+}
