@@ -1,5 +1,4 @@
-import React from 'react';
-import ContactForm from './ContactForm';
+import ContactForm from './contactform';
 
 const Contact = () => (
   <section id="contact" className="section">
